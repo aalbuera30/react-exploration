@@ -1,0 +1,54 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.login-form {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--double-padding, 20px);
+}
+
+.login-form-container {
+  width: 50%;
+  align-self: stretch;
+}
+
+.login-main {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-self: stretch;
+}
+
+.login-divider {
+  height: 2px;
+  width: 100px;
+  background-color: grey;
+}
+
+.login-divider-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--double-padding, 20px)
+}
+
+.img-banner {
+  width: 50%;
+  align-self: stretch;
+  object-fit: cover;
+}
+
+
+
